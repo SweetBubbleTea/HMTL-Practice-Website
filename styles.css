@@ -65,9 +65,10 @@ table {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(5, 300px);
     grid-template-rows: repeat(2, 450px);
     justify-content: center;
+    margin-top: 3%;
 }
 
 div.grid-container div.grid-item img {
@@ -76,9 +77,14 @@ div.grid-container div.grid-item img {
 
 figcaption {
     text-align: center;
+    color: #ff4b50;
 }
 
 div.grid-container div.grid-item a {
     text-decoration: none;
+}
+
+.home-icon {
+    display: inline; 
 }
 
