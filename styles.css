@@ -98,7 +98,7 @@ div.grid-container div.grid-item figure {
     display: inline; 
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 2600px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(auto, 1fr);
