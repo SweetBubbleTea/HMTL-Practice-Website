@@ -65,10 +65,13 @@ table {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 300px);
+    grid-template-columns: repeat(5, 250px);
     grid-template-rows: repeat(2, 450px);
+    column-gap: 5px;
+    row-gap: 5px;
     justify-content: center;
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 div.grid-container div.grid-item img {
@@ -87,4 +90,12 @@ div.grid-container div.grid-item a {
 .home-icon {
     display: inline; 
 }
+
+.grid-item {
+    border: 5px solid #ff4b50;
+    display: flex;
+    justify-content: center;
+}
+
+
 
