@@ -65,10 +65,12 @@ table {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 250px);
+    grid-template-columns: repeat(5, 285px);
     grid-template-rows: repeat(2, 450px);
-    column-gap: 5px;
+    column-gap: 3px;
     row-gap: 5px;
+    justify-content: center;
+    justify-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -90,15 +92,7 @@ div.grid-container div.grid-item a {
     display: inline; 
 }
 
-.grid-item {
-    display: flex;
-    justify-content: center;
-}
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-}
 
 
 
