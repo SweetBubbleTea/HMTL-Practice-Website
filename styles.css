@@ -92,7 +92,6 @@ div.grid-container div.grid-item a {
 }
 
 .grid-item {
-    border: 5px solid #ff4b50;
     display: flex;
     justify-content: center;
 }
