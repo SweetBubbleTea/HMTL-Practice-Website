@@ -1,9 +1,4 @@
-# HMTL-Practice-Website
-Website used to practice HTML concepts
+# Valorant Agent Wiki
+A website where you can find several different information about Valorant agents. 
 
-## Skills that were learned for this project
-  - Basic HTML structure and elements
-  - Links 
-  - Lists 
-  - Images and files 
-  - Keywords for formatting texts 
+
